@@ -1,0 +1,108 @@
+9:809  3:184  Found BIOS RSDP at FD840
+9:809  0:000  Printing ACPI tables from RSDP FD840 ...
+9:809  0:000   FD840: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:809  0:000    (Xsdt: DCB12080, Rsdt: DCB12028)
+9:809  0:000    DCB12080: 'XSDT', 'A M I', Rev: 1, Len: 116
+9:809  0:000    DCB12028: 'RSDT', 'A M I', Rev: 1, Len: 76
+9:809  0:000    Tables in Xsdt: 10
+9:809  0:000    0. DCB192E8: 'FACP', 'A M I', Rev: 5, Len: 268
+9:809  0:000        (Dsdt: DCB12188, Facs: DD2CF080, XDsdt: DCB12188, XFacs: 0)
+9:809  0:000        DCB12188: 'DSDT', 'A M I', Rev: 2, Len: 29017
+9:810  0:000        * FFFF0000: 'ÿÿÿÿ', 'ÿÿÿÿÿÿÿÿ', Rev: 255, Len: -1  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+9:810  0:000        DD2CF080: 'FACS', Ver: 2, Len: 64
+9:810  0:000    1. DCB193F8: 'APIC', 'A M I', Rev: 3, Len: 114
+9:810  0:000    2. DCB19470: 'FPDT', 'A M I', Rev: 1, Len: 68
+9:810  0:000    3. DCB194B8: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:810  0:000    4. DCB194F8: 'HPET', 'A M I', Rev: 1, Len: 56
+9:810  0:000    5. DCB1AB78: 'BGRT', 'A M I', Rev: 0, Len: 56
+9:810  0:000    6. DCB19588: 'UEFI', 'A M I', Rev: 1, Len: 66
+9:810  0:000    7. DCB195D0: 'SSDT', 'BANTRY', Rev: 1, Len: 2972
+9:810  0:000    8. DCB1A170: 'SSDT', 'BANTRY', Rev: 2, Len: 1207
+9:810  0:000    9. DCB1A628: 'CRAT', 'BANTRY', Rev: 1, Len: 1360
+9:810  0:000    Tables in Rsdt: 10
+9:810  0:000    0. DCB12100: 'FACP', 'A M I', Rev: 2, Len: 132
+9:810  0:000        (Dsdt: DCB12188, Facs: DD2CF040)
+9:810  0:000        DCB12188: 'DSDT', 'A M I', Rev: 2, Len: 29017
+9:810  0:000        * FFFF0000: 'ÿÿÿÿ', 'ÿÿÿÿÿÿÿÿ', Rev: 255, Len: -1  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+9:810  0:000        DD2CF040: 'FACS', Ver: 0, Len: 64
+9:810  0:000    1. DCB193F8: 'APIC', 'A M I', Rev: 3, Len: 114
+9:810  0:000    2. DCB19470: 'FPDT', 'A M I', Rev: 1, Len: 68
+9:810  0:000    3. DCB194B8: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:810  0:000    4. DCB194F8: 'HPET', 'A M I', Rev: 1, Len: 56
+9:810  0:000    5. DCB1AB78: 'BGRT', 'A M I', Rev: 0, Len: 56
+9:810  0:000    6. DCB19588: 'UEFI', 'A M I', Rev: 1, Len: 66
+9:810  0:000    7. DCB195D0: 'SSDT', 'BANTRY', Rev: 1, Len: 2972
+9:810  0:000    8. DCB1A170: 'SSDT', 'BANTRY', Rev: 2, Len: 1207
+9:810  0:000    9. DCB1A628: 'CRAT', 'BANTRY', Rev: 1, Len: 1360
+9:810  0:000  Found UEFI Acpi 2.0 RSDP at DCB12000
+9:810  0:000  Saving ACPI tables from RSDP DCB12000 to EFI\CLOVER\ACPI\origin ...
+9:810  0:000   DCB12000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+9:818  0:007    (Xsdt: DCB12080, Rsdt: DCB12028)
+9:818  0:000    DCB12080: 'XSDT', 'A M I', Rev: 1, Len: 116 -> XSDT.aml
+9:822  0:004    DCB12028: 'RSDT', 'A M I', Rev: 1, Len: 76 -> RSDT.aml
+9:826  0:004    Tables in Xsdt: 10
+9:826  0:000    0. DCB192E8: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+9:831  0:004        (Dsdt: DCB12188, Facs: DD2CF080, XDsdt: DCB12188, XFacs: 0)
+9:831  0:000        DCB12188: 'DSDT', 'A M I', Rev: 2, Len: 29017 -> DSDT.aml
+9:835  0:004        * FFFF0000: 'ÿÿÿÿ', 'ÿÿÿÿÿÿÿÿ', Rev: 255, Len: -1  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+9:835  0:000        DD2CF080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+9:839  0:004    1. DCB193F8: 'APIC', 'A M I', Rev: 3, Len: 114 -> APIC.aml
+9:844  0:004    2. DCB19470: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+9:848  0:004    3. DCB194B8: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+9:856  0:007    4. DCB194F8: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+9:860  0:004    5. DCB1AB78: 'BGRT', 'A M I', Rev: 0, Len: 56 -> BGRT.aml
+9:864  0:004    6. DCB19588: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+9:868  0:004    7. DCB195D0: 'SSDT', 'BANTRY', Rev: 1, Len: 2972 -> SSDT-0-BANTRY.aml
+9:873  0:004    8. DCB1A170: 'SSDT', 'BANTRY', Rev: 2, Len: 1207 -> SSDT-1-BANTRY.aml
+9:877  0:004    9. DCB1A628: 'CRAT', 'BANTRY', Rev: 1, Len: 1360 -> CRAT.aml
+9:881  0:004    Tables in Rsdt: 10
+9:881  0:000    0. DCB12100: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+9:885  0:004        (Dsdt: DCB12188, Facs: DD2CF040)
+9:885  0:000        DCB12188: 'DSDT', 'A M I', Rev: 2, Len: 29017
+9:886  0:000        * FFFF0000: 'ÿÿÿÿ', 'ÿÿÿÿÿÿÿÿ', Rev: 255, Len: -1  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+9:886  0:000        DD2CF040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+9:890  0:004    1. DCB193F8: 'APIC', 'A M I', Rev: 3, Len: 114
+9:890  0:000    2. DCB19470: 'FPDT', 'A M I', Rev: 1, Len: 68
+9:890  0:000    3. DCB194B8: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:890  0:000    4. DCB194F8: 'HPET', 'A M I', Rev: 1, Len: 56
+9:890  0:000    5. DCB1AB78: 'BGRT', 'A M I', Rev: 0, Len: 56
+9:890  0:000    6. DCB19588: 'UEFI', 'A M I', Rev: 1, Len: 66
+9:890  0:000    7. DCB195D0: 'SSDT', 'BANTRY', Rev: 1, Len: 2972
+9:890  0:000    8. DCB1A170: 'SSDT', 'BANTRY', Rev: 2, Len: 1207
+9:890  0:000    9. DCB1A628: 'CRAT', 'BANTRY', Rev: 1, Len: 1360
+9:890  0:000  Found UEFI Acpi 1.0 RSDP at DCB12000
+9:890  0:000  Printing ACPI tables from RSDP DCB12000 ...
+9:890  0:000   DCB12000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+9:890  0:000    (Xsdt: DCB12080, Rsdt: DCB12028)
+9:890  0:000    DCB12080: 'XSDT', 'A M I', Rev: 1, Len: 116
+9:890  0:000    DCB12028: 'RSDT', 'A M I', Rev: 1, Len: 76
+9:890  0:000    Tables in Xsdt: 10
+9:890  0:000    0. DCB192E8: 'FACP', 'A M I', Rev: 5, Len: 268
+9:890  0:000        (Dsdt: DCB12188, Facs: DD2CF080, XDsdt: DCB12188, XFacs: 0)
+9:890  0:000        DCB12188: 'DSDT', 'A M I', Rev: 2, Len: 29017
+9:891  0:000        * FFFF0000: 'ÿÿÿÿ', 'ÿÿÿÿÿÿÿÿ', Rev: 255, Len: -1  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+9:891  0:000        DD2CF080: 'FACS', Ver: 2, Len: 64
+9:891  0:000    1. DCB193F8: 'APIC', 'A M I', Rev: 3, Len: 114
+9:891  0:000    2. DCB19470: 'FPDT', 'A M I', Rev: 1, Len: 68
+9:891  0:000    3. DCB194B8: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:891  0:000    4. DCB194F8: 'HPET', 'A M I', Rev: 1, Len: 56
+9:891  0:000    5. DCB1AB78: 'BGRT', 'A M I', Rev: 0, Len: 56
+9:891  0:000    6. DCB19588: 'UEFI', 'A M I', Rev: 1, Len: 66
+9:891  0:000    7. DCB195D0: 'SSDT', 'BANTRY', Rev: 1, Len: 2972
+9:891  0:000    8. DCB1A170: 'SSDT', 'BANTRY', Rev: 2, Len: 1207
+9:891  0:000    9. DCB1A628: 'CRAT', 'BANTRY', Rev: 1, Len: 1360
+9:891  0:000    Tables in Rsdt: 10
+9:891  0:000    0. DCB12100: 'FACP', 'A M I', Rev: 2, Len: 132
+9:891  0:000        (Dsdt: DCB12188, Facs: DD2CF040)
+9:891  0:000        DCB12188: 'DSDT', 'A M I', Rev: 2, Len: 29017
+9:891  0:000        * FFFF0000: 'ÿÿÿÿ', 'ÿÿÿÿÿÿÿÿ', Rev: 255, Len: -1  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+9:891  0:000        DD2CF040: 'FACS', Ver: 0, Len: 64
+9:891  0:000    1. DCB193F8: 'APIC', 'A M I', Rev: 3, Len: 114
+9:891  0:000    2. DCB19470: 'FPDT', 'A M I', Rev: 1, Len: 68
+9:891  0:000    3. DCB194B8: 'MCFG', 'A M I', Rev: 1, Len: 60
+9:891  0:000    4. DCB194F8: 'HPET', 'A M I', Rev: 1, Len: 56
+9:891  0:000    5. DCB1AB78: 'BGRT', 'A M I', Rev: 0, Len: 56
+9:891  0:000    6. DCB19588: 'UEFI', 'A M I', Rev: 1, Len: 66
+9:891  0:000    7. DCB195D0: 'SSDT', 'BANTRY', Rev: 1, Len: 2972
+9:891  0:000    8. DCB1A170: 'SSDT', 'BANTRY', Rev: 2, Len: 1207
+9:891  0:000    9. DCB1A628: 'CRAT', 'BANTRY', Rev: 1, Len: 1360
