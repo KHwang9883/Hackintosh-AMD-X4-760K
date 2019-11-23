@@ -21,7 +21,7 @@
 
 - 版本：macOS High Sierra 10.13.6 (17G8037)
 
-![Screenshot](/screenshot.png?raw=true)
+![Screenshot](/Screenshot.png?raw=true)
 
 ## 硬件支持情况
 
