@@ -273,7 +273,7 @@
 				H4QAAAAAAA==
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030,17G8037</string>
+				<string>17G8030,17G8037,17G9016,17G10021</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -423,7 +423,7 @@
 				MduAPagMjQAGdVw=
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030,17G8037</string>
+				<string>17G8030,17G8037,17G9016,17G10021</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -459,7 +459,7 @@
 				PbxP6nh1NosFuAuNAIkFegyNAIsNsAuNAOsW
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030,17G8037</string>
+				<string>17G8030,17G8037,17G9016,17G10021</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -495,7 +495,7 @@
 				iwVSC40AiQUUDI0AiwVKC40AiQUMDI0A
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030,17G8037</string>
+				<string>17G8030,17G8037,17G9016,17G10021</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -568,7 +568,7 @@
 				AA==
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030,17G8037</string>
+				<string>17G8030,17G8037,17G9016,17G10021</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -605,7 +605,7 @@
 				SIkFrKiFAPfDAAABAHQ=
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030,17G8037</string>
+				<string>17G8030,17G8037,17G9016,17G10021</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -657,7 +657,7 @@
 				gz3UlXAAAHQK
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030,17G8037</string>
+				<string>17G8030,17G8037,17G9016,17G10021</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
