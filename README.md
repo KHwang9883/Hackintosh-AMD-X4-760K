@@ -1,9 +1,5 @@
 # Hackintosh AMD Athlon X4 760K
 
-## 注意
-
-此 repo 仅作备份用，不保证在相似硬件上正常工作！
-
 ## 配置
 
 | 硬件 | 型号 |
@@ -19,7 +15,7 @@
 
 ## 系统详情
 
-- 版本：macOS High Sierra 10.13.6 (17G8037)
+- 版本：macOS High Sierra 10.13.6 (17G10021)
 
 ![Screenshot](/Screenshot.png?raw=true)
 
@@ -29,13 +25,13 @@
 
 - CPU（[AMD Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)）
 - 显卡（[NVIDIA WebDriver](https://www.tonymacx86.com/nvidia-drivers/)）
+- 声卡（`VoodooHDA.kext`）
 - 网络
 - USB
 - iMessage & FaceTime
 
 ### 不工作
 
-- 声卡（AppleALC + Lilu 不工作）
 - 32 位应用程序无法运行
 - CPU 型号不识别
 
